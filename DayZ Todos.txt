@@ -1,0 +1,19 @@
+TODO
+- beim bedienen des Radar schmiert die Hook ab
+- Shortkeys
+
+- Ulimited ammo
+- Bullet owner für remote kills :D
+
+
+Oh yeah i just found "Pause" in ReClass, haha 
+
+btw. i've found that BulletPtr + 0x44 + 0x28 = D3DXVECTOR, and i think that is the bullet position itself, am i right?
+Yet BulletPtr + 0x44 + 0x44 is... D3DXVECTOR but it has small numbers and they are decreasing so i think that is the bullet drop?
+BulletPtr + 0x44 + 0x78 loooks like direction of the fired bullet
+BulletPtr + 0x44 + 0x5C, bullet velocity? Seems right because i have AKM and it 7.62x39 bullet velocity/speed is 730 as the game chart says.
+
+Is this everything i need and now i just need to change bullet position to match entity position?
+
+
+3EF2F808
