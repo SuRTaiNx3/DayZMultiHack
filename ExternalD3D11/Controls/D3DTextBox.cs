@@ -29,7 +29,7 @@ namespace ExternalD3D11.Controls
 
         #region Properties
 
-        public bool IsVisible = true;
+        public bool IsVisible = false;
 
         public float PositionX = 500;
         public float PositionY = 100;

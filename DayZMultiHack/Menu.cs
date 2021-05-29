@@ -829,7 +829,7 @@ namespace DayZMultiHack
 
         public void DrawMenu()
         {
-            if (!D3DMenu.IsVisible)
+           if (!D3DMenu.IsVisible)
                 return;
 
             float menuBottom = 0;

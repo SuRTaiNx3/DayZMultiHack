@@ -152,8 +152,8 @@ namespace ExternalD3D11
             d3dBase.BeginDraw();
             FPS = fps.Calc();
 
-            Console.Draw();
-            TextBox.Draw();
+            //Console.Draw();
+            //TextBox.Draw();
             //ClickableArea.Draw();
         }
 
